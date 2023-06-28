@@ -36,6 +36,7 @@ export function Form() {
     }
     return dispatch(addContacts({ id: nanoid(), name, phone }));
   };
+
   const reset = () => {
     setName('');
     setPhone('');
